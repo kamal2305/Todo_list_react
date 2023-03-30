@@ -1,0 +1,59 @@
+body {
+  /* background-color: #dbdea4; */
+  background-image: url("space.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App {
+  background-color: #1736558b;
+  min-height: 400px;
+  width: 400px;
+  margin: 40px auto;
+  box-shadow: 80px;
+  border-radius: 40px;
+  opacity: .9;
+
+}
+
+#to-do-form input {
+  background-color:#262e5b;
+  width: 200px;
+  height: 40px;
+  border: 0;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+#to-do-form input::placeholder {
+  color: #bdb478;
+}
+
+#to-do-form input:hover{
+  color: #dbdea4;
+}
+
+#to-do-form input:form{
+  outline: none;
+}
+#to-do-form button {
+  background-color:#264794;
+  width: 80px;
+  height: 40px;
+  border: 0;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1a1f48;
+}
+
+#to-do-form button:hover {
+  color: rgb(193, 195, 51);
+}
